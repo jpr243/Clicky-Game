@@ -1,0 +1,17 @@
+.banner {
+  background-image: url("../../images/bg.jfif") !important;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  height: 300px;
+  margin: 0 !important;
+  padding: 0 !important;
+  color: darkred;
+  font-size: 18px;
+}
+
+@media (min-width: 576px) {
+  .banner {
+    font-size: calc(10px + 14 * (100vw - 320px) / 800);
+  }
+}
